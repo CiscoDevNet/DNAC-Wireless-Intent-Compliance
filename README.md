@@ -1,4 +1,4 @@
-# DNAC-Wireless-Intent-Compliance-App
+# DNAC Wireless Intent Compliance App
 
 ### Description
 Simple application to make use of Cisco DNA Center APIs to audit wireless SSID Intent with device configuration.
