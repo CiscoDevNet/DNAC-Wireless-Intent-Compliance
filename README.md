@@ -2,7 +2,7 @@
 
 ### Description
 Simple application to make use of Cisco DNA Center APIs to audit wireless SSID Intent with device configuration.
-This script will compare wireless profile provisioned in Cisco DNAC (Design) against network/device configuration and produce a tabular report. This helps network administrator in deteacting mismatches w.r.t. design intent and actual configuration on the device. Based on the report outcome, the administrator can remediate the issue with appropriate site provisoning in DNAC.
+This script will compare wireless profile provisioned in Cisco DNAC (Design - Wirless network profiles) against network/device configuration and produce a tabular report. This helps network administrator in detecting mismatches w.r.t. design intent and actual configuration on the device. Based on the report outcome, the administrator can remediate the issue with appropriate site provisoning in DNAC.
 
 DNAC APIs used:
 
