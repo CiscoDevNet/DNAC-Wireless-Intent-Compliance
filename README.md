@@ -15,7 +15,7 @@ DNAC APIs used:
 
 ### Prerequisite
 - Devices should be added to inventory.
-- Cisco DNAC with Platform 1.3+ Published APIs
+- Cisco DNAC with DNAC-Platform 1.4 Published APIs
 - Following python packages should be pre installed.
    - requests
    - tabulate
