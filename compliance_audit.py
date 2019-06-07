@@ -44,7 +44,7 @@ class Color:
     BLUE = '\033[94m'
     GREEN = '\033[92m'
     YELLOW = '\033[93m'
-    RED = '\x1b[0;30;41m'
+    RED = '\x1b[41m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
     END = '\x1b[0m'
@@ -70,7 +70,8 @@ def get_network_device_id(device_ip=dnac_config.DEVICE_IP, params=None):
         device = resp.text
 
     except ValueError:
-        logger.error("Something wrong, cannot get network device information")
+        logger.error("Something wrong, cannot get network device information. Make sure valid DNAC Cluster IP & "
+                     "Credentials are valid in dnac_config.py file. Also make sure DNAC Cluster is reachable")
         sys.exit()
 
     if status != 200:

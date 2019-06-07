@@ -58,6 +58,6 @@ python compliance_audit.py
 
 Device IP Address    Device Family        Assigned Site           WLAN Configured                                    WLAN in SiteProfile               Intent Compliance
 -------------------  -------------------  ----------------------  -------------------------------------------------  --------------------------------  -----------------------------------
-10.104.105.10       Wireless Controller  Not Assigned            [u'wlan_106', u'TestSpartan1x', u'TestSpartan52']  [u'simwlan', u'wlan-me-dot1x-1']  NO, Device and DNAC are not in SYNC
-10.104.105.11        Wireless Controller  Global/Bangalore/BGL18  [u'simwlan', u'wlan-me-dot1x-1']                   [u'simwlan', u'wlan-me-dot1x-1']  YES
+10.104.105.10       Wireless Controller  Global/Bangalore/BGL18  [u'wlan_106', u'TestSpartan1x', u'TestSpartan52']  [u'simwlan', u'wlan-me-dot1x-1']  NO, Device and DNAC are not in SYNC
+10.104.105.11       Wireless Controller  Global/Bangalore/BGL18  [u'simwlan', u'wlan-me-dot1x-1']                   [u'simwlan', u'wlan-me-dot1x-1']  YES
 ```
